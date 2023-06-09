@@ -3,3 +3,11 @@ controllers:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+
+messages:
+    path: /
+    controller: App\Controller\MessageController::new
+
+success:
+    path: /success
+    controller: App\Controller\MessageController::index

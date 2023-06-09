@@ -1,0 +1,17 @@
+body{
+    background-size: cover;
+    background: linear-gradient(to top right, #dd05e4, #10cde0) no-repeat fixed;
+    font-family: Poppins-Regular,sans-serif;
+}
+
+
+.send-btn{
+    /*background: linear-gradient(to top right, #10cde0, #dd05e4);*/
+    width: 100%;
+    text-decoration: none;
+    border-color: #dd05e4!important;
+}
+
+.send-btn:hover{
+    border-color: #4995e1!important;
+}
