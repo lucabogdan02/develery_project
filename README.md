@@ -1,1 +1,1 @@
-# develery_project
+# Bogdán Luca - Junior PHP Developer Feladat
