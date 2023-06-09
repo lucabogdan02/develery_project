@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="container-fluid ">
+        <div class="d-flex justify-content-center align-items-center vh-100">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class="card-title">Kapcsolatfelvétel</h1>
+                        {{ include('message/_form.html.twig') }}
+                    </div>
+                </div>
+        </div>
+    </div>
+{% endblock %}
